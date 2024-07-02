@@ -19,7 +19,7 @@ html {
 
 .page {
   min-inline-size: 320px;
-  max-inline-size: 700px;;
+  max-inline-size: 700px;
   min-block-size: 100dvb;
   color: var(--main-color);
   font-family: var(--ff-inter);
@@ -251,7 +251,7 @@ html {
 }
 
 .matrix {
-   filter: sepia(1) contrast(2) brightness(200%); 
+  filter: sepia(1) contrast(2) brightness(200%); 
 }
 
 .bottom {
