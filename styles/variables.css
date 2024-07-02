@@ -1,1 +1,24 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+
+:root {
+    --ff-inter: 'Inter-Variable', sans-serif;
+    --ff-pressstart2p: 'PressStart2P-Regular', 'fantasy';
+    --main-color: rgba(0, 0, 0, 1);
+    --bg-color: rgba(255, 255, 255, 1);
+    --fw-main: 400;
+    --fw-accent: 700;
+    --label-border: rgba(255, 255, 255, 1);
+    --text-button: rgba(255, 255, 255, 1);
+    --bg-image:
+        repeating-linear-gradient(to right, rgba(211, 211, 211, 1) 0, rgba(211, 211, 211, 1) 2px, 
+        rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px), 
+        repeating-linear-gradient(rgba(211, 211, 211, 1) 0, rgba(211, 211, 211, 1) 2px, 
+        rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+        linear-gradient(180deg, #E7E7E7 0.01%, #1A1A1A 100%);
+      --heart-outline: rgba(0, 0, 0, 1);
+      --fill-color: #FF0000;
+      --bg-color-anime: rgba(0, 0, 0, 1);
+    
+  }
+ 

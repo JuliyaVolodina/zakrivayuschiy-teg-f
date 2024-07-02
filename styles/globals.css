@@ -35,6 +35,14 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 ul,

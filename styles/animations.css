@@ -12,3 +12,92 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes arrow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(4px);}
+  } 
+
+.sparks {
+   opacity: 0;
+}
+
+.core {
+  fill: transparent;
+  transition: fill 0.3s 0.03s;
+}
+
+.main-body {
+  fill: transparent;
+  transition: fill 0.3s;
+}
+
+.card__icon-button:hover .core {
+   fill: var(--bg-color-anime);
+   transition: fill 0.3s;
+ }
+
+.card__icon-button:hover .main-body {
+  fill: var(--bg-color-anime);
+  transition: fill 0.3s 0.05s;
+}
+
+.card__icon-button:active .core {
+   fill: var(--fill-color);
+   transition: fill 0.3s;
+}
+
+.card__icon-button:active .main-body {
+   fill: var(--fill-color);
+   transition: fill 0.3s 0.05s;
+}
+
+.like-icon.is-liked .core {
+   fill: var(--fill-color);
+   transition: fill 0.3s;
+}
+
+.like-icon.is-liked .main-body {
+   fill: var(--fill-color);
+   transition: fill 0.3s 0.05s;
+}
+ 
+.like-icon.is-liked .contour {
+   fill: var(--fill-color);
+   transition: fill 0.3s 0.06s;
+}
+
+.like-icon.is-liked .heart {
+   animation: shine 0.3s 0.1s ease-in;
+   transform-origin: 50%;
+}
+
+@keyframes shine {
+    0% {transform: scale(1, 1);}
+    100% {transform: scale(1.5, 1.5);}
+} 
+
+.like-icon.is-liked .sparks {
+   animation: sparks 0.3s 0.3s ease-in;
+}
+
+@keyframes sparks {
+    from {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+} 
+
+.like-icon .contour {
+   fill: var( --heart-outline);
+   transition: fill 0.1s; 
+}
+ 
+ 
+ 
+    
+
+
+  
