@@ -3,7 +3,7 @@
 
 :root {
     --ff-inter: 'Inter-Variable', sans-serif;
-    --ff-pressstart2p: 'PressStart2P-Regular', 'fantasy';
+    --ff-pressstart2p: 'PressStart2P', 'fantasy';
     --main-color: rgba(0, 0, 0, 1);
     --bg-color: rgba(255, 255, 255, 1);
     --fw-main: 400;
@@ -19,6 +19,7 @@
       --heart-outline: rgba(0, 0, 0, 1);
       --fill-color: #FF0000;
       --bg-color-anime: rgba(0, 0, 0, 1);
-    
+     
+
   }
  
